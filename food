@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+	int i;
+	printf("enter the value of i:");
+	scanf("%d",&i);
+	switch(i)
+	{
+		case 1:
+			printf("food item-pizza\n");
+			printf("price-Rs239");
+			break;
+			case 2:
+			printf("food item-bugger\n");
+			printf("price-Rs129");
+			break;
+			case 3:
+			printf("food item-pasta\n");
+			printf("price-Rs179");
+			break;
+			case 4:
+			printf("food item-french fries\n");
+			printf("price-Rs99");
+			break;
+			case 5:
+			printf("food item-sandwich\n");
+			printf("price-Rs149");
+			break;
+				defualt:
+					printf("wrong key");
+			
+	}
+}
